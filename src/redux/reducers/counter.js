@@ -3,12 +3,15 @@ import {INCREMENT, DECREMENT, RESET} from '../actions/counter';
 /*
 * 初始化state
  */
-
 const initState = {
     count: 0
 };
-/*
-* reducer
+
+/**
+ * reducer
+ * @param state
+ * @param action
+ * @returns {{count: number}}
  */
 export default function reducer(state = initState, action) {
     switch (action.type) {

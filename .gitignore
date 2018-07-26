@@ -3,3 +3,5 @@
 /.idea
 *.sublime-project
 *.sublime-workspace
+*-compiled.js
+*-compiled.js.map

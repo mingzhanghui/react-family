@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.btn {
+    padding: .4em .8em;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+
+.btnPrimary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4
+}
+
+.btnPrimary.focus,.btnPrimary:focus {
+    color: #fff;
+    background-color: #286090;
+    border-color: #122b40
+}
+
+.btnPrimary:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74
+}
