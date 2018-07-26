@@ -1,0 +1,28 @@
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+div {
+	display: block;
+	clear: both;
+}
+
+.navbar {
+	display: block;
+}
+
+.navbar>li {
+    float: left;
+    padding: 2px 4px;
+}
+
+.navbar>li:last-child:after {
+	content: " ";
+	display: block;
+    clear: both;
+}
